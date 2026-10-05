@@ -2,9 +2,9 @@
 # Glossário Crítico 
 *desvio semiótico do lexico comum*
 
-*Início do projecto:* Setembro de 2026
+**Início do projecto:** Setembro de 2026
 
-## Descrição:*
+## Descrição:
  
 Neste glossário praticamos arqueologia subversiva da língua. Ele não inventa palavras; desvia-as, fazendo o contrabando do seu significado. É um repositório de *contra-estratégias lexicais* que  confrontam a norma com a dureza ou poesia quotidiana no mundo real. 
             
