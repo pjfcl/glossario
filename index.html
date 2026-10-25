@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Glossário Crítico — Investigação Cultural</title>
+    <!-- Framework W3.CSS -->
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="style.css">
+    <!-- Parser de Markdown client-side (marked.js) -->
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+</head>
+<body class="w3-light-grey">
+
+    <main class="w3-content w3-padding-24" style="max-width: 800px;">
+
+        <!-- Cabeçalho do Artefacto -->
+        <header class="w3-container w3-white w3-card-4 w3-padding-32 w3-margin-bottom">
+            <h1 class="w3-xxlarge w3-text-dark-grey" style="font-weight: 350; letter-spacing: 2px;">Glossário Crítico</h1>
+            <p class="w3-text-grey" style="font-size: 0.95rem; text-transform: uppercase; letter-spacing: 1px;">Investigação Cultural — Arqueologia da Língua</p>
+        </header>
+
+        <!-- Secção de Apresentação Metodológica -->
+        <section class="w3-container w3-white w3-card-4 w3-padding-24 w3-margin-bottom">
+            <p align="justify">Este glossário constitui um repositório taxonómico e metodológico desenvolvido no âmbito de uma investigação cultural independente. O seu objectivo central é examinar criticamente a terminologia aplicada nos contextos sociais contemporâneos, confrontando a norma lexical hegemónica com a realidade empírica observada no quotidiano.</p>
+            
+            <p align="justify" style="margin-top: 15px;">Concebido como um dispositivo de análise, o arquivo articula-se em três eixos metodológicos fundamentais para cada verbete:</p>
+            
+            <ul class="w3-ul w3-border-0" style="margin-top: 10px;">
+                <li><strong>Norma Oficial:</strong> O registo que define o uso oficial do termo.</li>
+                <li><strong>Nota de Campo Etnográfica:</strong> O levantamento recolhido nos contextos de vivência social.</li>
+                <li><strong>Incisão Teórica:</strong> O enquadramento conceptual à luz da sociologia, da antropologia e da teoria crítica.</li>
+            </ul>
+
+         
+        </section>
+
+        <!-- Navegador Alfanumérico A-Z (W3.CSS) -->
+        <nav class="w3-container w3-white w3-card-4 w3-padding-16 w3-margin-bottom w3-center" aria-label="Navegação alfabética">
+            <div class="w3-bar" style="display: flex; flex-wrap: wrap; justify-content: center; gap: 4px;">
+                <button class="letter-btn w3-button w3-light-grey w3-hover-dark-grey" data-letter="a">A</button>
+                <button class="letter-btn w3-button w3-light-grey w3-hover-dark-grey" data-letter="b">B</button>
+                <button class="letter-btn w3-button w3-light-grey w3-hover-dark-grey" data-letter="c">C</button>
+                <button class="letter-btn w3-button w3-light-grey w3-hover-dark-grey" data-letter="d">D</button>
+                <button class="letter-btn w3-button w3-light-grey w3-hover-dark-grey" data-letter="e">E</button>
+                <button class="letter-btn w3-button w3-light-grey w3-hover-dark-grey" data-letter="f">F</button>
+                <button class="letter-btn w3-button w3-light-grey w3-hover-dark-grey" data-letter="g">G</button>
+                <button class="letter-btn w3-button w3-light-grey w3-hover-dark-grey" data-letter="h">H</button>
+                <button class="letter-btn w3-button w3-light-grey w3-hover-dark-grey" data-letter="i">I</button>
+                <button class="letter-btn w3-button w3-light-grey w3-hover-dark-grey" data-letter="j">J</button>
+                <button class="letter-btn w3-button w3-light-grey w3-hover-dark-grey" data-letter="l">L</button>
+                <button class="letter-btn w3-button w3-light-grey w3-hover-dark-grey" data-letter="m">M</button>
+                <button class="letter-btn w3-button w3-light-grey w3-hover-dark-grey" data-letter="n">N</button>
+                <button class="letter-btn w3-button w3-light-grey w3-hover-dark-grey" data-letter="o">O</button>
+                <button class="letter-btn w3-button w3-light-grey w3-hover-dark-grey" data-letter="p">P</button>
+                <button class="letter-btn w3-button w3-light-grey w3-hover-dark-grey" data-letter="q">Q</button>
+                <button class="letter-btn w3-button w3-light-grey w3-hover-dark-grey" data-letter="r">R</button>
+                <button class="letter-btn w3-button w3-light-grey w3-hover-dark-grey" data-letter="s">S</button>
+                <button class="letter-btn w3-button w3-light-grey w3-hover-dark-grey" data-letter="t">T</button>
+                <button class="letter-btn w3-button w3-light-grey w3-hover-dark-grey" data-letter="u">U</button>
+                <button class="letter-btn w3-button w3-light-grey w3-hover-dark-grey" data-letter="v">V</button>
+                <button class="letter-btn w3-button w3-light-grey w3-hover-dark-grey" data-letter="x">X</button>
+                <button class="letter-btn w3-button w3-light-grey w3-hover-dark-grey" data-letter="z">Z</button>
+            </div>
+        </nav>
+
+        <!-- Painel dinâmico onde os verbetes serão injetados pelo app.js -->
+        <section id="dictionary-display" class="dictionary-grid">
+            <div class="w3-container w3-white w3-card-4 w3-padding-24 w3-center placeholder-msg">
+                <p class="w3-text-grey" style="font-style: italic;">Seleccione uma letra acima para consultar o arquivo de verbetes desta investigação.</p>
+            </div>
+        </section>
+
+        <!-- Rodapé neutro com menção à tecnologia de base -->
+        <footer class="w3-container w3-center w3-padding-24" style="margin-top: 40px; color: #888; font-size: 0.85rem;">
+            <p align="center" style="margin-top: 20px; font-style: italic; color: #777;">
+                Enquanto a mão corta, a mente destila.
+            </p>
+            <br>
+            <p style="font-style: italic; margin-bottom: 5px;">Repositório de Investigação Cultural Independente</p>
+            <p style="font-size: 0.75rem;">Powered by <a href="https://www.w3schools.com/w3css/" target="_blank" rel="noopener" style="color: inherit; text-decoration: underline;">W3.CSS</a></p>
+        </footer>
+
+    </main>
+
+    <script src="app.js"></script>
+</body>
+</html>
