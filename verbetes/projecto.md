@@ -7,7 +7,7 @@ Plano, intenção ou desígnio de realizar algo; projeto; desenho, esquema ou an
 **1. Registo Etnográfico**
 *Log ID: 20260926_1 (26/09/2026)*
 
-> «(...) Constato que nenhuma das secções (das salas de trabalho) na cozinha têm luz natural, embora tal fosse possível. Foi uma opção de projeto. Para além das dificuldades de trabalho, por falta de visão quando o sistema elétrico falha, eleva os custos energéticos e a pegada ecológica.»
+> «(...) Constato que nenhuma das secções (das salas de trabalho) na cozinha têm luz natural, embora tal fosse possível. Foi uma opção de projecto. Para além das dificuldades de trabalho, por falta de visão quando o sistema elétrico falha, eleva os custos energéticos e a pegada ecológica.»
 
 **2. Sentido do Contrabando**
 
