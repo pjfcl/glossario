@@ -1,6 +1,7 @@
 # higiene
 
 **higiene**, *s. f.*
+
 Conjunto de práticas e técnicas para preservar a saúde e manter a limpeza de espaços, corpos ou alimentos.
 
 **1. Registo Etnográfico**  
