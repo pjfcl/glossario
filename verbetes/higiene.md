@@ -4,8 +4,7 @@
 
 Conjunto de práticas e técnicas para preservar a saúde e manter a limpeza de espaços, corpos ou alimentos.
 
-**1. Registo Etnográfico**  
-*Log ID: 20261102_01 (02/11/2026)*
+**1. Registo Etnográfico**  *Log ID: 20261102_01 (02/11/2026)*
 
 > «(...) o estado do alojamento colectivo para os funcionários é aberrante e lastimoso. O lixo amontoa-se e os dejectos acumulam-se nos cantos. Não há limpeza nem higiene. Os quartos não são limpos há seis semanas, nem os balneários faz uma semana.»
 
